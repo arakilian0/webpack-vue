@@ -1,6 +1,6 @@
 # webpack-vue
 
-## Install & Use
+## Install
 ```
 git clone https://github.com/arakilian0/webpack-vue.git && cd webpack-vue
 ```
