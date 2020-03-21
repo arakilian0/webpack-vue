@@ -1,10 +1,10 @@
 # webpack-vue
 
-## Install
-```bash
+## Install & Use
+```
 git clone https://github.com/arakilian0/webpack-vue.git && cd webpack-vue
 ```
-```bash
+```js
 npm install
 ```
 ```js
