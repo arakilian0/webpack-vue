@@ -2,16 +2,17 @@
 
 ## Install
 ```bash
-git clone https://github.com/arakilian0/webpack-vue.git
+git clone https://github.com/arakilian0/webpack-vue.git && cd webpack-vue
 ```
 ```bash
 npm install
 ```
-```bash
-npm run server
+```js
+npm run server /* Development Server in live reload mode */
 ```
-```bash
-npm run bundler
+```js
+npm run bundler /* Development Builder in live reload mode */
 ```
-
-This will launch a live server using the options from `.browsersync/config.js`
+```js
+npm run build /* Produciton Build */
+```

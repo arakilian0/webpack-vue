@@ -6,13 +6,15 @@
   "main": "index.js",
   "scripts": {
     "server": "cd .browsersync && node config.js",
-    "bundler": "cd .webpack && webpack --config config.js --watch"
+    "bundler": "cd .webpack/dev && webpack --config config.js --watch",
+    "build": "cd .webpack/prod && webpack --config config.js"
   },
   "author": "Michael Arakilian",
   "license": "MIT",
   "devDependencies": {
     "browser-sync": "^2.26.7",
     "webpack": "^4.42.0",
-    "webpack-cli": "^3.3.11"
+    "webpack-cli": "^3.3.11",
+    "webpack-merge": "^4.2.2"
   }
 }

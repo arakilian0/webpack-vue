@@ -81,42 +81,42 @@
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = "../src/main.js");
+/******/ 	return __webpack_require__(__webpack_require__.s = "../../src/main.js");
 /******/ })
 /************************************************************************/
 /******/ ({
 
-/***/ "../src/lib/other.js":
-/*!***************************!*\
-  !*** ../src/lib/other.js ***!
-  \***************************/
+/***/ "../../src/lib/other.js":
+/*!*****************************************************************!*\
+  !*** C:/Users/arakilian0/Desktop/webpack-test/src/lib/other.js ***!
+  \*****************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-eval("console.log('other')\r\n\n\n//# sourceURL=webpack:///../src/lib/other.js?");
+eval("console.log('otherasdasd')\r\n\n\n//# sourceURL=webpack:///C:/Users/arakilian0/Desktop/webpack-test/src/lib/other.js?");
 
 /***/ }),
 
-/***/ "../src/lib/test.js":
-/*!**************************!*\
-  !*** ../src/lib/test.js ***!
-  \**************************/
+/***/ "../../src/lib/test.js":
+/*!****************************************************************!*\
+  !*** C:/Users/arakilian0/Desktop/webpack-test/src/lib/test.js ***!
+  \****************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-eval("console.log('test')\r\n\n\n//# sourceURL=webpack:///../src/lib/test.js?");
+eval("console.log('test')\r\n\n\n//# sourceURL=webpack:///C:/Users/arakilian0/Desktop/webpack-test/src/lib/test.js?");
 
 /***/ }),
 
-/***/ "../src/main.js":
-/*!**********************!*\
-  !*** ../src/main.js ***!
-  \**********************/
+/***/ "../../src/main.js":
+/*!************************************************************!*\
+  !*** C:/Users/arakilian0/Desktop/webpack-test/src/main.js ***!
+  \************************************************************/
 /*! no exports provided */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _lib_test_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./lib/test.js */ \"../src/lib/test.js\");\n/* harmony import */ var _lib_test_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_lib_test_js__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _lib_other_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./lib/other.js */ \"../src/lib/other.js\");\n/* harmony import */ var _lib_other_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_lib_other_js__WEBPACK_IMPORTED_MODULE_1__);\n\r\n\r\n\n\n//# sourceURL=webpack:///../src/main.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _lib_test_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./lib/test.js */ \"../../src/lib/test.js\");\n/* harmony import */ var _lib_test_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_lib_test_js__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _lib_other_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./lib/other.js */ \"../../src/lib/other.js\");\n/* harmony import */ var _lib_other_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_lib_other_js__WEBPACK_IMPORTED_MODULE_1__);\n\r\n\r\n\n\n//# sourceURL=webpack:///C:/Users/arakilian0/Desktop/webpack-test/src/main.js?");
 
 /***/ })
 
