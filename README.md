@@ -8,7 +8,10 @@ git clone https://github.com/arakilian0/webpack-vue.git
 npm install
 ```
 ```bash
-npm start
+npm run server
+```
+```bash
+npm run bundler
 ```
 
 This will launch a live server using the options from `.browsersync/config.js`
